@@ -49,7 +49,7 @@ public class FlutterPluginMusic3Plugin implements MethodCallHandler {
         if (call.method.equals("getPlatformVersion")) {
             result.success("Android " + android.os.Build.VERSION.RELEASE);
             try {
-                loadAudio("https://firebasestorage.googleapis.com/v0/b/crypto-topic-244009.appspot.com/o/iphone_basic_ring.mp3?alt=media&token=2f00147d-0e10-4bbc-8040-3ea45e13b413");
+                loadAudio("https://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3");
             } catch (Exception e) {
                 e.printStackTrace();
                 Log.d(TAG, "onMethodCall: ERROR -----" + e.getMessage());

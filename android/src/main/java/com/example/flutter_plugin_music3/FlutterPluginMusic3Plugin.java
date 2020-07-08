@@ -27,7 +27,7 @@ public class FlutterPluginMusic3Plugin implements MethodCallHandler {
     public void loadAudio(final String url) throws Exception {
         if (mediaPlayer == null) {
             mediaPlayer = MediaPlayer.create(activity , Uri.parse(url));
-            mediaPlayer.setLooping(true);
+          //  mediaPlayer.setLooping(true);
         }
     }
 
